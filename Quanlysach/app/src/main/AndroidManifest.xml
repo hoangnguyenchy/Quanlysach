@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toanvu.duanmau_hoanthien">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.ChangePasswordActivity" />
+        <activity android:name=".Activity.ListNguoiDungActivity" />
+        <activity android:name=".Them.NguoiDungActivity" />
+        <activity android:name=".DeTai.NguoiDungDetailActivity" />
+        <activity android:name=".Activity.ListTheLoaiActivity" />
+        <activity android:name=".Them.TheLoaiActivity" />
+        <activity android:name=".DeTai.TheLoaiDetailActivity" />
+        <activity android:name=".ThemSachActivity" />
+        <activity android:name=".ListBookActivity" />
+        <activity android:name=".ListHoaDonActivity" />
+        <activity android:name=".HoaDonActivity" />
+        <activity android:name=".HoaDonChiTietActivity" />
+        <activity android:name=".ListHoaDonChiTietByIDActivity" />
+        <activity android:name=".LuotSachBanChayActivity" />
+        <activity android:name=".ThongKeDoanhThuActivity"></activity>
+    </application>
+
+</manifest>
